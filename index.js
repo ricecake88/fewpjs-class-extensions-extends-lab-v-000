@@ -11,7 +11,7 @@ class Polygon {
   
   get perimeter() {
     let perimeter = 0;
-    for let side of this.sides {
+    for (const side of this.sides) {
       perimeter += side;
     }
     return perimeter;
