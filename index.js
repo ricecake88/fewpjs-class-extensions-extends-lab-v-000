@@ -47,6 +47,7 @@ class Square extends Polygon {
   }
   
   get area() {
+      console.log(this.countSides)
       return this.side[0]*this.side[1];
   }
 }
