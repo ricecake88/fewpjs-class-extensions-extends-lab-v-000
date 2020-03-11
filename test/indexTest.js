@@ -60,6 +60,7 @@ describe( "Square", () => {
   it( "calculates the area", () => {
     let square = new Square( [ 5, 5, 5, 5 ] )
 
+   console.log(square.area);
     expect( square.area ).to.eq( 25 )
   } )
 
