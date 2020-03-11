@@ -33,7 +33,7 @@ class Triangle extends Polygon {
 
 class Square extends Polygon {
   get isValid() {
-    console.log(this.side[0])
+    console.log(this.side[1])
     if ((this.countSides === 4) &&
        (this.side[0] === this.side[1]) &&
        (this.side[1] === this.side[2]) &&
