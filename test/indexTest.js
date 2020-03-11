@@ -35,6 +35,7 @@ describe( "Triangle", () => {
 
     expect( triangle.countSides ).to.eq( 3 )
 
+    console.log(triangle.isValid);
     expect( triangle.isValid ).to.be.true
     expect( triangle2.isValid ).to.be.false
   } )
