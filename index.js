@@ -35,10 +35,10 @@ class Square extends Polygon {
   
   get isValid() {
     if ((this.countSides === 4) &&
-       (this.sides[0] === this.side[1]) &&
-       (this.sides[1] === this.side[2]) &&
-       (this.sides[2] === this.side[3]) &&
-       (this.sidse[3] === this.side[0])) {
+       (this.sides[0] === this.sides[1]) &&
+       (this.sides[1] === this.sides[2]) &&
+       (this.sides[2] === this.sides[3]) &&
+       (this.sides[3] === this.sides[0])) {
       return true;
     } else {
       return false;
@@ -46,7 +46,6 @@ class Square extends Polygon {
   }
   
   get area() {
-      console.log(this.side[0])
-      return (this.side[0]*this.side[0]);
+      return (this.sides[0]*this.sides[0]);
   }
 }
