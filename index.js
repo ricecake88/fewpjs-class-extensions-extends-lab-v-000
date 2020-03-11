@@ -9,7 +9,7 @@ class Polygon {
     
   }
   
-  get permieter() {
+  get perimeter() {
     
   }
 }
