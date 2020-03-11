@@ -20,6 +20,7 @@ class Polygon {
 
 class Triangle extends Polygon {
   get isValid() {
+    console.log(this.countSides);
     if (this.countSides === 3) {
       return true;
     } else {
