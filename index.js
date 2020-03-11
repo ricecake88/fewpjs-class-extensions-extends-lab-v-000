@@ -20,7 +20,7 @@ class Polygon {
 
 class Triangle extends Polygon {
   get isValid() {
-    console.log(this.sides)
+    console.log(this.sides[0])
     if ((this.countSides === 3) && 
         (((this.sides[0] + this.sides[1]) > this.sides[2]) || 
          ((this.sides[1] + this.sides[2]) > this.sides[0]) || 
